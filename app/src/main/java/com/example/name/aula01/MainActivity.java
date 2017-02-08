@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         Double valor1 = Double.parseDouble(tilValor1.getEditText().getText().toString());
         Double valor2 = Double.parseDouble(tilValor2.getEditText().getText().toString());
 
-        // cálculo -> parse do cálculo -> retorna o valor
         etResultado.setText(String.valueOf(valor1 + valor2));
 
     }
